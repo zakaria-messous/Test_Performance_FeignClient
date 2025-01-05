@@ -1,0 +1,9 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false # Le serveur ne doit pas s'enregistrer lui-même
+    fetch-registry: false       # Le serveur ne doit pas essayer de récupérer les instances enregistrées
+  instance:
+    hostname: localhost

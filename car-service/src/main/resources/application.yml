@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+
+spring:
+  application:
+    name: car-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/car_db
+    username: root
+    password: root123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update # Use "update" during development; change to "validate" or "none" in production
+    show-sql: true     # Show SQL queries in logs
