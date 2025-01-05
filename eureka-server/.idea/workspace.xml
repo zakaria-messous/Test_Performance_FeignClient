@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="acd7bdd1-0bb4-437d-8ebc-5d6636dd4032" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/dto/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/feign/CarFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/ClientServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/ClientServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/service/ClientService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Zaki/Bureau/Test_Performance_FeignClient/car-service",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="car-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.car_service.CarServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="client-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.client_service.ClientServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka_server.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.CarServiceApplication" />
+      <item itemvalue="Spring Boot.ClientServiceApplication" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>
