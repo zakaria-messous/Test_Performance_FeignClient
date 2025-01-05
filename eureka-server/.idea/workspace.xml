@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acd7bdd1-0bb4-437d-8ebc-5d6636dd4032" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/dto/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/feign/CarFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/ClientServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/ClientServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/controller/ClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +36,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Spring Boot.CarServiceApplication.executor": "Run",
+    "Spring Boot.ClientServiceApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Zaki/Bureau/Test_Performance_FeignClient/car-service",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />

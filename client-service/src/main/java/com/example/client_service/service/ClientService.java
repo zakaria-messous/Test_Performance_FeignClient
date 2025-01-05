@@ -1,6 +1,6 @@
 package com.example.client_service.service;
 
-import com.example.client_service.client.CarFeignClient;
+import com.example.client_service.feign.CarFeignClient;
 import com.example.client_service.dto.Car;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
