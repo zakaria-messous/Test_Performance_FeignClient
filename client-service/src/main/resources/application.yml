@@ -21,3 +21,11 @@ spring:
     hibernate:
       ddl-auto: update # Use "update" during development; change to "validate" or "none" in production
     show-sql: true     # Show SQL queries in logs
+  #cloud:
+  #    consul:
+  #      host: localhost
+  #      port: 8500
+  #      discovery:
+  #        register: true
+  #        enabled: true
+  #        prefer-ip-address: true
