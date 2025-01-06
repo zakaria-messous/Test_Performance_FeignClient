@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acd7bdd1-0bb4-437d-8ebc-5d6636dd4032" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../client-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/ClientServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/ClientServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/dto/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/feign/CarFeignClient.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/example/client_service/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/target/classes/com/example/client_service/ClientServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/target/classes/com/example/client_service/ClientServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/target/classes/com/example/client_service/controller/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/target/classes/com/example/client_service/controller/ClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/target/classes/com/example/client_service/dto/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/target/classes/com/example/client_service/feign/CarFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-service/target/classes/com/example/client_service/service/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/target/classes/com/example/client_service/service/ClientService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,25 +41,47 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2rFobqmOj7GLYp0W9HSdzB5Ly2l" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.CarServiceApplication.executor": "Run",
     "Spring Boot.ClientServiceApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Zaki/Bureau/Test_Performance_FeignClient/car-service",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Zaki/Bureau/Test_Performance_WebClient/eureka-server",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
@@ -84,7 +116,27 @@
       <item itemvalue="Spring Boot.ClientServiceApplication" />
     </list>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acd7bdd1-0bb4-437d-8ebc-5d6636dd4032" name="Changes" comment="" />
+      <created>1736164258155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736164258155</updated>
+      <workItem from="1736164259260" duration="92000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
