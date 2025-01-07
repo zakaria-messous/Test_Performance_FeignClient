@@ -53,7 +53,10 @@
 			<artifactId>spring-cloud-starter-loadbalancer</artifactId>
 		</dependency>
 		-->
-
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-registry-prometheus</artifactId>
+		</dependency>
 		<!-- Actuator (optionnel pour les métriques) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

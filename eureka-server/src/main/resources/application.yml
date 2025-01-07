@@ -7,3 +7,29 @@ eureka:
     fetch-registry: false
   server:
     wait-time-in-ms-when-sync-empty: 0
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, prometheus # Expose these endpoints
+  metrics:
+    enable:
+      http.server.requests: true # Enable HTTP server request metrics
+  endpoint:
+    prometheus:
+      enabled: true # Enable Prometheus actuator endpoint
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+
+# If using service discovery like Consul:
+# spring:
+#   cloud:
+#     consul:
+#       host: localhost
+#       port: 8500
+#       discovery:
+#         register: true
+#         enabled: true
+#         prefer-ip-address: true

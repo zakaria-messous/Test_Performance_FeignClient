@@ -21,11 +21,29 @@ spring:
     hibernate:
       ddl-auto: update # Use "update" during development; change to "validate" or "none" in production
     show-sql: true     # Show SQL queries in logs
-  #cloud:
-  #    consul:
-  #      host: localhost
-  #      port: 8500
-  #      discovery:
-  #        register: true
-  #        enabled: true
-  #        prefer-ip-address: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, prometheus # Expose these endpoints
+  metrics:
+    enable:
+      http.server.requests: true # Enable HTTP server request metrics
+  endpoint:
+    prometheus:
+      enabled: true # Enable Prometheus actuator endpoint
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+
+# If using service discovery like Consul:
+# spring:
+#   cloud:
+#     consul:
+#       host: localhost
+#       port: 8500
+#       discovery:
+#         register: true
+#         enabled: true
+#         prefer-ip-address: true
